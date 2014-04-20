@@ -22,7 +22,9 @@
     "scripts" : {
         "test" : "tape test/*.js"
     },
-    "bundledDependencies" : [ "esprima" ],
+    "peerDependencies": {
+        "esprima": "*"
+    },
     "devDependencies" : {
         "tape" : "~1.0.4"
     },
